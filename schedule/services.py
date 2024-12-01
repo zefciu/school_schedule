@@ -1,5 +1,6 @@
 import datetime
 from dataclasses import dataclass
+from typing import Any
 
 from asgiref.sync import sync_to_async
 from django.db.models import QuerySet, Count
@@ -11,10 +12,12 @@ from schedule.types import ScheduleQueryParams as ScheduleQueryParamsProtocol
 
 
 async def get_schedule(params: ScheduleQueryParamsProtocol) -> "QuerySet[Schedule]":
-    kwargs = {"school_class__name": params.class_name}
+    kwargs: dict[str, Any] = {"school_class__name": params.class_name}
     if params.dow:
         kwargs["dow"] = params.dow
-    return Schedule.objects.filter(**kwargs).annotate(class_student_count=Count("school_class__students")).all()
+    return Schedule.objects.filter(**kwargs)\
+        .annotate(class_student_count=Count("school_class__students"))\
+        .all()
 
 
 async def serialize_schedules(schedules: QuerySet[Schedule]):
@@ -24,7 +27,8 @@ async def serialize_schedules(schedules: QuerySet[Schedule]):
 @dataclass
 class ScheduleQueryParams(ScheduleQueryParamsProtocol):
     class_name: str
-    dow: int
+    dow: int | None
+
 
 def get_params(params: QueryDict) -> ScheduleQueryParams:
     serializer = QueryParamsSerializer(data=params)
@@ -37,6 +41,7 @@ def get_params(params: QueryDict) -> ScheduleQueryParams:
         class_name=serializer.validated_data["class_name"],
         dow=dow,
     )
+
 
 def get_schedules_cache_key(params: ScheduleQueryParams) -> str:
     return f"schedules-{params.class_name}-{params.dow}"

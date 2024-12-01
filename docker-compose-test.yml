@@ -1,0 +1,19 @@
+---
+services:
+  tests:
+    build: .
+    ports: 
+      - 8000:8000
+    volumes:
+      - .:/school_schedule
+    command: "sh runtests.sh"
+    depends_on:
+      db:
+        condition: service_started
+        restart: true
+  db:
+    image: postgres:17.2
+    environment:
+      POSTGRES_DB: school_schedule
+      POSTGRES_USER: school_schedule
+      POSTGRES_PASSWORD: zelgad00

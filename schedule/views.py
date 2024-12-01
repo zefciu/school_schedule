@@ -3,8 +3,12 @@ from adrf.views import APIView
 from django.core.cache import cache
 from rest_framework.response import Response
 
-from schedule.types import ScheduleGetter, SchedulesSerializingService, ScheduleQueryParams, ScheduleQueryParamsGetter, \
-    ScheduleCacheKeyGenerator
+from schedule.types import (
+    ScheduleGetter,
+    SchedulesSerializingService,
+    ScheduleQueryParamsGetter,
+    ScheduleCacheKeyGenerator,
+)
 
 
 class SchedulesView(APIView):

@@ -7,7 +7,7 @@ from schedule.models import Schedule
 
 class ScheduleQueryParams(Protocol):
     class_name: str
-    for_today: bool
+    dow: int | None
 
 
 class ScheduleGetter(Protocol):
@@ -24,7 +24,7 @@ class ScheduleQueryParamsGetter(Protocol):
     def __call__(self, args: Any) -> ScheduleQueryParams:
         ...
 
+
 class ScheduleCacheKeyGenerator(Protocol):
     async def __call__(self, params: ScheduleQueryParams) -> str:
         ...
-

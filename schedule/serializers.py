@@ -1,4 +1,3 @@
-from django.db.models.sql import Query
 from adrf.serializers import ModelSerializer
 from rest_framework import serializers
 
@@ -7,8 +6,9 @@ from schedule.models import Schedule, SchoolClass
 
 class ClassSerializer(ModelSerializer):
     class Meta:
-        model=SchoolClass
-        fields=["name"]
+        model = SchoolClass
+        fields = ["name"]
+
 
 class ScheduleSerializer(ModelSerializer):
     class Meta:
@@ -21,7 +21,6 @@ class ScheduleSerializer(ModelSerializer):
         data = super().to_representation(instance, *args, **kwargs)
         data["class"]["student_count"] = instance.class_student_count
         return data
-
 
 
 class QueryParamsSerializer(serializers.Serializer):

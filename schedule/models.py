@@ -11,8 +11,7 @@ class Named(models.Model):
         return self.name
 
     class Meta:
-        abstract=True
-
+        abstract = True
 
 
 class SchoolClass(Named):
@@ -37,8 +36,6 @@ class Subject(Named):
         related_name="subjects",
         on_delete=models.CASCADE,
     )
-
-
 
 
 class Schedule(models.Model):

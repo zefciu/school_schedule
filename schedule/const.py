@@ -1,7 +1,4 @@
-from enum import IntEnum, auto
-
 from django.db import models
-from django.template.defaulttags import autoescape
 
 
 class DayOfWeek(models.IntegerChoices):
