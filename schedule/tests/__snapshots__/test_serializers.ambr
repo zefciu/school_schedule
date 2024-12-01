@@ -1,0 +1,17 @@
+# serializer version: 1
+# name: test_serialize_example
+  ReturnDict({
+    'class': dict({
+      'name': '5A',
+      'student_count': 23,
+    }),
+    'day_of_week': 7,
+    'hour': '08:00:00',
+    'subject': dict({
+      'name': 'Math',
+    }),
+    'teacher': dict({
+      'name': 'Alex',
+    }),
+  })
+# ---

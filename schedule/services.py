@@ -17,6 +17,7 @@ async def get_schedule(params: ScheduleQueryParamsProtocol) -> "QuerySet[Schedul
         kwargs["dow"] = params.dow
     return Schedule.objects.filter(**kwargs)\
         .annotate(class_student_count=Count("school_class__students"))\
+        .order_by("dow", "hour")\
         .all()
 
 

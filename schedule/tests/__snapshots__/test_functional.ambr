@@ -1,0 +1,1129 @@
+# serializer version: 1
+# name: test_get_schedules[all_week]
+  list([
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'Hemalurgic biology',
+      }),
+      'teacher': dict({
+        'name': 'Ardous Delouse',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'Terris Language',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'Physics',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Innate',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'Metallic arts',
+      }),
+      'teacher': dict({
+        'name': 'Aving Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'Physical education',
+      }),
+      'teacher': dict({
+        'name': 'Chapmot Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Cosmereology',
+      }),
+      'teacher': dict({
+        'name': 'Ashweather Delouse',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Malwish Language',
+      }),
+      'teacher': dict({
+        'name': 'Lesan Melstrom',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'History - empire',
+      }),
+      'teacher': dict({
+        'name': 'Dorise Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'Metallic arts',
+      }),
+      'teacher': dict({
+        'name': 'Aving Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'Applied theology',
+      }),
+      'teacher': dict({
+        'name': 'Antillus Cett',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'Biology',
+      }),
+      'teacher': dict({
+        'name': 'Antillus Hammondess',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'History - classic',
+      }),
+      'teacher': dict({
+        'name': 'Edgard Barrington',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'Cosmereology',
+      }),
+      'teacher': dict({
+        'name': 'Ashweather Delouse',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Metallic arts',
+      }),
+      'teacher': dict({
+        'name': 'Aving Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Physics',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Innate',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'Investiture sciences',
+      }),
+      'teacher': dict({
+        'name': 'Reshelle Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'History - empire',
+      }),
+      'teacher': dict({
+        'name': 'Dorise Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'Maths',
+      }),
+      'teacher': dict({
+        'name': 'Edwarn Hammondess',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'High Imperial Language',
+      }),
+      'teacher': dict({
+        'name': 'Callins Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'History - classic',
+      }),
+      'teacher': dict({
+        'name': 'Edgard Barrington',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'Physical education',
+      }),
+      'teacher': dict({
+        'name': 'Chapmot Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Metalurgy',
+      }),
+      'teacher': dict({
+        'name': 'Allrianne Elariel',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Investiture sciences',
+      }),
+      'teacher': dict({
+        'name': 'Reshelle Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'History - empire',
+      }),
+      'teacher': dict({
+        'name': 'Dorise Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'Investiture sciences',
+      }),
+      'teacher': dict({
+        'name': 'Reshelle Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'Metallic arts',
+      }),
+      'teacher': dict({
+        'name': 'Aving Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'Investiture sciences',
+      }),
+      'teacher': dict({
+        'name': 'Reshelle Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'Terris Language',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'History - classic',
+      }),
+      'teacher': dict({
+        'name': 'Edgard Barrington',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Applied theology',
+      }),
+      'teacher': dict({
+        'name': 'Antillus Cett',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Terris Language',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'Metalurgy',
+      }),
+      'teacher': dict({
+        'name': 'Allrianne Elariel',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'Metalurgy',
+      }),
+      'teacher': dict({
+        'name': 'Allrianne Elariel',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'History - empire',
+      }),
+      'teacher': dict({
+        'name': 'Dorise Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'Physical education',
+      }),
+      'teacher': dict({
+        'name': 'Chapmot Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'Maths',
+      }),
+      'teacher': dict({
+        'name': 'Edwarn Hammondess',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'Malwish Language',
+      }),
+      'teacher': dict({
+        'name': 'Lesan Melstrom',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Malwish Language',
+      }),
+      'teacher': dict({
+        'name': 'Lesan Melstrom',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Maths',
+      }),
+      'teacher': dict({
+        'name': 'Edwarn Hammondess',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'Maths',
+      }),
+      'teacher': dict({
+        'name': 'Edwarn Hammondess',
+      }),
+    }),
+  ])
+# ---
+# name: test_get_schedules[tuesday]
+  list([
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'Hemalurgic biology',
+      }),
+      'teacher': dict({
+        'name': 'Ardous Delouse',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'Terris Language',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'Physics',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Innate',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'Metallic arts',
+      }),
+      'teacher': dict({
+        'name': 'Aving Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'Physical education',
+      }),
+      'teacher': dict({
+        'name': 'Chapmot Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Cosmereology',
+      }),
+      'teacher': dict({
+        'name': 'Ashweather Delouse',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Malwish Language',
+      }),
+      'teacher': dict({
+        'name': 'Lesan Melstrom',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 1,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'History - empire',
+      }),
+      'teacher': dict({
+        'name': 'Dorise Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'Metallic arts',
+      }),
+      'teacher': dict({
+        'name': 'Aving Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'Applied theology',
+      }),
+      'teacher': dict({
+        'name': 'Antillus Cett',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'Biology',
+      }),
+      'teacher': dict({
+        'name': 'Antillus Hammondess',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'History - classic',
+      }),
+      'teacher': dict({
+        'name': 'Edgard Barrington',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'Cosmereology',
+      }),
+      'teacher': dict({
+        'name': 'Ashweather Delouse',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Metallic arts',
+      }),
+      'teacher': dict({
+        'name': 'Aving Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Physics',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Innate',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 2,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'Investiture sciences',
+      }),
+      'teacher': dict({
+        'name': 'Reshelle Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'History - empire',
+      }),
+      'teacher': dict({
+        'name': 'Dorise Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'Maths',
+      }),
+      'teacher': dict({
+        'name': 'Edwarn Hammondess',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'High Imperial Language',
+      }),
+      'teacher': dict({
+        'name': 'Callins Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'History - classic',
+      }),
+      'teacher': dict({
+        'name': 'Edgard Barrington',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'Physical education',
+      }),
+      'teacher': dict({
+        'name': 'Chapmot Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Metalurgy',
+      }),
+      'teacher': dict({
+        'name': 'Allrianne Elariel',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Investiture sciences',
+      }),
+      'teacher': dict({
+        'name': 'Reshelle Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 3,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'History - empire',
+      }),
+      'teacher': dict({
+        'name': 'Dorise Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'Investiture sciences',
+      }),
+      'teacher': dict({
+        'name': 'Reshelle Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'Metallic arts',
+      }),
+      'teacher': dict({
+        'name': 'Aving Ladrian',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'Investiture sciences',
+      }),
+      'teacher': dict({
+        'name': 'Reshelle Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'Terris Language',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'History - classic',
+      }),
+      'teacher': dict({
+        'name': 'Edgard Barrington',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Applied theology',
+      }),
+      'teacher': dict({
+        'name': 'Antillus Cett',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Terris Language',
+      }),
+      'teacher': dict({
+        'name': 'Augustin Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 4,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'Metalurgy',
+      }),
+      'teacher': dict({
+        'name': 'Allrianne Elariel',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '08:00:00',
+      'subject': dict({
+        'name': 'Metalurgy',
+      }),
+      'teacher': dict({
+        'name': 'Allrianne Elariel',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '09:00:00',
+      'subject': dict({
+        'name': 'History - empire',
+      }),
+      'teacher': dict({
+        'name': 'Dorise Shezler',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '10:00:00',
+      'subject': dict({
+        'name': 'Physical education',
+      }),
+      'teacher': dict({
+        'name': 'Chapmot Mecant',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '11:00:00',
+      'subject': dict({
+        'name': 'Maths',
+      }),
+      'teacher': dict({
+        'name': 'Edwarn Hammondess',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '12:00:00',
+      'subject': dict({
+        'name': 'Malwish Language',
+      }),
+      'teacher': dict({
+        'name': 'Lesan Melstrom',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '13:00:00',
+      'subject': dict({
+        'name': 'Malwish Language',
+      }),
+      'teacher': dict({
+        'name': 'Lesan Melstrom',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '14:00:00',
+      'subject': dict({
+        'name': 'Maths',
+      }),
+      'teacher': dict({
+        'name': 'Edwarn Hammondess',
+      }),
+    }),
+    dict({
+      'class': dict({
+        'name': '1Iron',
+        'student_count': 14,
+      }),
+      'day_of_week': 5,
+      'hour': '15:00:00',
+      'subject': dict({
+        'name': 'Maths',
+      }),
+      'teacher': dict({
+        'name': 'Edwarn Hammondess',
+      }),
+    }),
+  ])
+# ---

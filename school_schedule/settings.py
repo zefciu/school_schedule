@@ -83,6 +83,9 @@ DATABASES = {
         "USER": "school_schedule",
         "PASSWORD": "zelgad00",
         'NAME': "school_schedule",
+        "TEST": {
+            "NAME": "school_schedule"
+        }
     }
 }
 
